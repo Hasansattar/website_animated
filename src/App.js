@@ -8,7 +8,7 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Service from './components/Service'
 import Navbar from './components/Navbar'
-import Footer from './components/Footer';
+ 
 
 
 
@@ -24,7 +24,7 @@ function App() {
         <Route exact path="/service" component={Service} />
         <Redirect to="/" />
       </Switch>
-      <Footer/>
+      
     </>
   );
 }
