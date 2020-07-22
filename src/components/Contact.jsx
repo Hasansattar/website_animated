@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Bounce from 'react-reveal/Bounce'
 
 
 function Contact() {
@@ -24,7 +25,7 @@ function Contact() {
    }
     return (
         <>
-            <div className="my-4">
+         <Bounce left>   <div className="my-4">
                 <h1 className="text-center">Contact us</h1>
 
             </div>
@@ -62,6 +63,7 @@ function Contact() {
                 </div>
 
             </div>
+            </Bounce>
         </>
     )
 }
